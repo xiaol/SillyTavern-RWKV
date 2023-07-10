@@ -2928,7 +2928,8 @@ app.post("/getstatus_openai", jsonParser, function (request, response_getstatus_
         }
         if (response.statusCode == 404) {
             console.log('Endpoint not found.');
-            response_getstatus_openai.send({ error: true });
+            response_getstatus_openai.send(data);
+            //response_getstatus_openai.send({ error: true });
         }
         if (response.statusCode == 500 || response.statusCode == 501 || response.statusCode == 501 || response.statusCode == 503 || response.statusCode == 507) {
             console.log(data);
