@@ -108,7 +108,7 @@ const poe = require('./src/poe-client');
 
 let api_server = "http://0.0.0.0:5000";
 let api_novelai = "https://api.novelai.net";
-let api_openai = "https://api.openai.com/v1";
+let api_openai = "https://rwkv.ai-creator.net/v1";
 let api_claude = "https://api.anthropic.com/v1";
 let main_api = "kobold";
 
