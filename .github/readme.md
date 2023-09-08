@@ -1,6 +1,8 @@
+**main branch is deprecated and won't be updated. Please migrate to the release branch using the instructions: https://docs.sillytavern.app/usage/branches/**
+
 ![image](https://github.com/SillyTavern/SillyTavern/assets/18619528/8c41a061-7f72-4d2b-9d54-e6d058209e7b)
 
-Mobile-friendly, Multi-API (KoboldAI/CPP, Horde, NovelAI, Ooba, OpenAI+proxies, Poe, WindowAI(Claude!)), VN-like Waifu Mode, Horde SD, System TTS, WorldInfo (lorebooks), customizable UI, auto-translate, and more prompt options than you'd ever want or need. Optional Extras server for more SD/TTS options + ChromaDB/Summarize.
+Mobile-friendly, Multi-API (KoboldAI/CPP, Horde, NovelAI, Ooba, OpenAI+proxies, WindowAI(Claude!)), VN-like Waifu Mode, Horde SD, System TTS, WorldInfo (lorebooks), customizable UI, auto-translate, and more prompt options than you'd ever want or need. Optional Extras server for more SD/TTS options + ChromaDB/Summarize.
 
 Based on a fork of TavernAI 1.2.8
 
@@ -18,10 +20,10 @@ SillyTavern is a fork of TavernAI 1.2.8 which is under more active development a
 
 SillyTavern is being developed using a two-branch system to ensure a smooth experience for all users.
 
-* main -🌟 **Recommended for most users.** This is the most stable and recommended branch, updated only when major releases are pushed. It's suitable for the majority of users.
-* dev - ⚠️ **Not recommended for casual use.** This branch has the latest features, but be cautious as it may break at any time. Only for power users and enthusiasts.
+* release -🌟 **Recommended for most users.** This is the most stable and recommended branch, updated only when major releases are pushed. It's suitable for the majority of users.
+* staging - ⚠️ **Not recommended for casual use.** This branch has the latest features, but be cautious as it may break at any time. Only for power users and enthusiasts.
 
-If you're not familiar with using the git CLI or don't understand what a branch is, don't worry! The main branch is always the preferable option for you.
+If you're not familiar with using the git CLI or don't understand what a branch is, don't worry! The release branch is always the preferable option for you.
 
 ### What do I need other than Tavern?
 
@@ -65,10 +67,9 @@ Get in touch with the developers directly:
 * Chat bookmarks / branching (duplicates the dialogue in its current state)
 * Advanced KoboldAI / TextGen generation settings with a lot of community-made presets
 * World Info support: create rich lore or save tokens on your character card
-* Window AI browser extension support (run models like Claude, GPT 4): https://windowai.io/
+* Window AI browser extension support (run models like Claude, GPT 4): <https://windowai.io/>
 * [Oobabooga's TextGen WebUI](https://github.com/oobabooga/text-generation-webui) API connection
 * [AI Horde](https://horde.koboldai.net/) connection
-* [Poe.com](https://poe.com) (ChatGPT / Claude) connection
 * Prompt generation formatting tweaking
 * webp character card interoperability (PNG is still an internal format)
 
@@ -145,8 +146,8 @@ An easy-to-follow guide with pretty pictures:
   5. Open a Command Prompt inside that folder by clicking in the 'Address Bar' at the top, typing `cmd`, and pressing Enter.
   6. Once the black box (Command Prompt) pops up, type ONE of the following into it and press Enter:
 
-* for Main Branch: `git clone https://github.com/SillyTavern/SillyTavern -b main`
-* for Dev Branch: `git clone https://github.com/SillyTavern/SillyTavern -b dev`
+* for Release Branch: `git clone https://github.com/SillyTavern/SillyTavern -b release`
+* for Staging Branch: `git clone https://github.com/SillyTavern/SillyTavern -b staging`
 
   7. Once everything is cloned, double-click `Start.bat` to make NodeJS install its requirements.
   8. The server will then start, and SillyTavern will pop up in your browser.
@@ -224,7 +225,7 @@ If you (or someone else) want to connect to your hosted ST while not being on th
 
 * While using the ST-hosting device, access [this page](https://whatismyipaddress.com/) and look for for `IPv4`. This is what you would use to connect from the remote device.
 
-### 3. Connect the remote device to the ST host machine.
+### 3. Connect the remote device to the ST host machine
 
 Whatever IP you ended up with for your situation, you will put that IP address and port number into the remote device's web browser.
 
@@ -298,11 +299,11 @@ GNU Affero General Public License for more details.**
 * Waifu mode inspired by the work of PepperTaco (<https://github.com/peppertaco/Tavern/>)
 * Thanks Pygmalion University for being awesome testers and suggesting cool features!
 * Thanks oobabooga for compiling presets for TextGen
-* poe-api client adapted from <https://github.com/ading2210/poe-api> (GPL v3)
-* GraphQL files for poe: <https://github.com/muharamdani/poe> (ISC License)
 * KoboldAI Presets from KAI Lite: <https://lite.koboldai.net/>
 * Noto Sans font by Google (OFL license)
 * Icon theme by Font Awesome <https://fontawesome.com> (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-* AI Horde client library by ZeldaFan0225: https://github.com/ZeldaFan0225/ai_horde
+* AI Horde client library by ZeldaFan0225: <https://github.com/ZeldaFan0225/ai_horde>
 * Linux startup script by AlpinDale
 * Thanks paniphons for providing a FAQ document
+* 10K Discord Users Celebratory Background by @kallmeflocc
+* Korean translation by @doloroushyeonse
